@@ -6,12 +6,12 @@ class Obstacle:
         self.sprite = pyglet.sprite.Sprite(self.image, x=x, y=y, batch=batch)
         
         if is_flying:
-            self.sprite.scale = 0.4  # حجم أصغر للطائر
+            self.sprite.scale = 0.4  
         else:
-            self.sprite.scale = 0.5  # حجم مناسب للعقبة الأرضية
+            self.sprite.scale = 0.5  
 
-        self.is_flying = is_flying  # تحديد إذا كانت العقبة طائرة أو على الأرض
-        self.passed = False  # علم لمعرفة ما إذا تجاوز اللاعب هذه العقبة
+        self.is_flying = is_flying 
+        self.passed = False  
 
     def update(self, dt, speed):
         self.sprite.x -= speed * dt

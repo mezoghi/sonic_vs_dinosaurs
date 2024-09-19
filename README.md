@@ -6,6 +6,7 @@ Sonic vs Dinosaurs is a fun, fast-paced endless runner where Sonic has to dodge 
 Oh, and if you need a little extra help?
 There’s a superpower mode that makes Sonic invincible for a short while. 
 " ما ترصش shift" 
+
 🕹️ How to Play:
 Jump: Press Space to leap over obstacles on the ground.
 Crouch: Press the Down arrow to duck under flying dinosaurs.
